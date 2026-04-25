@@ -22,7 +22,7 @@
 
 ## 📸 Visuals
 
-| <img src="screenshot/screen1.png" width="200"> | <img src="screenshot/screen2.png" width="200"> | <img src="screenshot/screen3.png" width="200"> |
+| <img src="screenshot/screen1.png" width="200"> | <img src="screenshot/screen2.png" width="200"> | <img src="screenshot/screen3.png" width="200"> | <img src="screenshot/screen4.png" width="200"> |
 
 ## 🛠 Tech Stack
 * **Frontend:** [Flutter](https://flutter.dev) (Dart)
