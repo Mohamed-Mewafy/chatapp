@@ -383,7 +383,7 @@ class _HomepageState extends State<Homepage> {
       ChatRoom chatRoom;
       if (existingChatDoc != null) {
         chatRoom = ChatRoom.fromMap(
-          existingChatDoc.data() as Map<String, dynamic>,
+          existingChatDoc.data(),
           existingChatDoc.id,
         );
       } else {
