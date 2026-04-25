@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28641557685",
+    "project_id": "lenchat-fc7be",
+    "storage_bucket": "lenchat-fc7be.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28641557685:android:7ff22097603dece99f92fc",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrUu9mnGH9KJainY9jiL5Ksjp_jy6E6NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

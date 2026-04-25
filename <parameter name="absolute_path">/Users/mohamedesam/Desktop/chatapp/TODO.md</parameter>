@@ -1,0 +1,36 @@
+<parameter name="content"># Chat App Fixes - TODO Progress
+
+## [ ] Step 1: Verify custom form widgets
+- Read lib/model/widgets/formtextfild.dart, FromFildSingUp.dart, constent.dart
+- Fix any validation/UI issues
+
+## [ ] Step 2: Update main.dart
+- Import/use firebase_options.dart
+- Fix route names (SingUp → Signup)
+
+## [ ] Step 3: Fix auth flow
+- lib/view/Auth/singup.dart: Add name field, create Firestore users/{uid} doc
+- lib/view/Auth/login.dart: Polish, update user doc if needed
+
+## [ ] Step 4: Improve MessageBubble.dart
+- Add dynamic timestamp formatting
+
+## [ ] Step 5: Enhance ChatRoomPage
+- Auto-scroll to newest messages on load/send
+- Update chat room lastMessage/lastMessageTime on send
+
+## [ ] Step 6: Add logout
+- Homepage.dart: Logout button in appbar
+- Use FirebaseAuth.instance.signOut()
+
+## [ ] Step 7: Run checks
+- flutter pub get
+- flutter analyze
+- Test full flow: signup → users → chat → send/receive
+
+## [ ] Step 8: Firebase setup
+- Create composite index for chatRooms: participants (arrayContains), lastMessageTime (desc)
+
+**Progress: 0/8 complete**
+
+Updated when steps done.</parameter>
